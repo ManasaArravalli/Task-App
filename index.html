@@ -1,0 +1,38 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js">
+		</script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		</head>
+	<body>
+		<div id="wrap">
+			<header>
+				<h1>Task Tracker</h1>
+				<h4>v2.0</h4>
+			</header>
+			<div id="main">
+				<div id="left-side">
+					<h3>Create a Task</h3>
+					<form action="" method="post">
+						<div id="taskname" class="task-details">
+							<label>Name</label><br><input name="name" type="text" required>
+						</div>
+						<div id="taskdate" class="task-details">
+							<label>Date</label><br><input name="date" type="date" required>
+						</div>
+						<div id="assigned" class="task-details">
+							<label>Assigned To</label><br><input name="assigned" type="text" required>
+						</div>
+						<input type="submit" value="Submit">
+					</form>
+				</div>
+				<div id="right-side">
+					<h3>Existing Tasks</h3>
+					<div id="div1"> 
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
